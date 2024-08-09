@@ -8,6 +8,7 @@ import Profile from './pages/Profile';
 export default function App() {
   return (
   <BrowserRouter>
+  <header />
     <Routes>
       <Route path="/Home" element={<Home />} />
       <Route path="/Sign-in" element={<Signin />} />
